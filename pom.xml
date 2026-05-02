@@ -17,6 +17,7 @@
 
     <modules>
         <module>infrastructure/eureka-server</module>
+        <module>infrastructure/config-server</module>
     </modules>
 
     <properties>
