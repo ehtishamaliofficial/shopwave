@@ -10,7 +10,7 @@ spring:
         git:
           # Points to your local config-repo folder
           uri: file://${user.home}/Projects/Spring boot/shopwave/
-          default-label: dev
+          default-label: feature/user-service
           clone-on-start: true
 
 eureka:
