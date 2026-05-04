@@ -18,6 +18,7 @@
     <modules>
         <module>infrastructure/eureka-server</module>
         <module>infrastructure/config-server</module>
+        <module>common</module>
         <module>infrastructure/api-gateway</module>
         <module>services/user-service</module>
     </modules>
