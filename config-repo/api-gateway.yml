@@ -6,3 +6,11 @@ spring:
           uri: lb://user-service
           predicates:
             - Path=/api/users/**
+        - id: user-service-swagger-ui
+          uri: lb://user-service
+          predicates:
+            - Path=/user-service/swagger-ui/**
+        - id: user-service-api-docs
+          uri: lb://user-service
+          predicates:
+            - Path=/user-service/v3/api-docs/**
